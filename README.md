@@ -1,6 +1,6 @@
 # Google Batch Image Downloader (GBID)
 - Coded by: Mohammad Shams
-- Website: http://www.mshams.ir, http://tadbir.it
+- Website: http://www.mshams.ir
 - Contact me: info[at]mshams.ir
 
 ## Examples:
@@ -8,7 +8,7 @@
 *   java -jar Gbid.jar -f input.txt --size large --type photo -n 15 -v
 *   java -jar Gbid.jar -p "action script" --size large --domain www.mshams.ir
 *   java -jar Gbid.jar -p "white lion" --size small --ext png --type photo --color transparent
-*   java -jar Gbid.jar -p "beauty girl" --type face --color specific:white -v -s -n 5
+*   java -jar Gbid.jar -p "beauty girl" --type face --color specific:white -v -n 5
 *   java -jar Gbid.jar -p "beauty girl" --type face --color specific:black -v -n 30 --aspect tall --size medium --rights reuse
 *   java -jar Gbid.jar -p "captcha" -v -n 40 -t 8 --size small --ext png
 *   java -jar Gbid.jar -p "logo linux" -v -n 40 --size small --ext png --color transparent
